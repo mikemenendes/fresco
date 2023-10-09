@@ -1,0 +1,5 @@
+--alloy-orange: #c66300ff;
+--ut-orange: #f6820aff;
+--dark-orange-web: #ff8800ff;
+--magnolia: #e3e1e8ff;
+--floral-white: #fffaf2ff;
