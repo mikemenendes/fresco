@@ -57,14 +57,15 @@
     clear: both;
 }
 
+.flex{
+    display: flex;
+}
+
 
 /* -------config---- */
 
 /* --------header -------*/
 
-header{
-   
-}
 
 header div.containerfull{
     padding: 5px 20px 0px 0px;
@@ -157,3 +158,47 @@ section.banner .banner-text span{
 }
 
 /* -------- /banner ------- */
+
+/* ------ quemsou ------ */
+section.quemsou{
+    background-image: url(../assets/asset\ 12.jpeg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 15px;
+}
+
+section.quemsou div.quemsou-text h2{
+    font-size: 68px;
+    font-family: var(--font-titulo);
+    padding-top: 10px;
+    color: var(--alloy-orange);
+}
+
+section.quemsou div.quemsou-text p{
+    max-width: 350px;
+    font-size: 18px;
+    padding: 15px 10px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+#negrito{
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+section.quemsou div.quemsou-text a{
+    font-size: 18px;
+    color: var(--ut-orange);
+}
+
+section.quemsou div.quemsou-text a:hover{
+    color: var(--alloy-orange);
+}
+
+.qmsou{
+    max-height: 670px;
+} 
