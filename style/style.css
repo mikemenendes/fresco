@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+
+    --font-prin: 'Josefin Sans', sans-serif;
+    --font-titulo: 'Berkshire Swash', cursive;
+    --alloy-orange: #c66300ff;
+    --ut-orange: #f6820aff;
+    --dark-orange-web: #ff8800ff;
+    --magnolia: #e3e1e8ff;
+    --floral-white: #fffaf2ff;
+}
+
+.containerfull{
+    max-width: 100%;
+    margin: auto;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container1{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container8{
+    max-width: 800px;
+    margin: auto;
+}
+
+.space{
+    padding: 10px;
+}
+
+.spaceud{
+    padding: 10px 0px;
+}
+
+.spacelr{
+    padding: 0px 10px;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* -------config---- */
+
+/* --------header -------*/
+
+header{
+   
+}
+
+header div.containerfull{
+    padding: 5px 20px 0px 0px;
+    text-align: right;
+    font-size: 20px;
+    
+    background-color: var(--dark-orange-web);
+}
+
+header div.containerfull a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+header div a:hover{
+    color: #000;
+}
+
+div.menu div.logo{
+    display: inline;
+}
+
+div.menu div.nav{
+    padding: 10px;
+    float: right;
+}
+
+div.menu div.nav a{
+    margin-right: 20px;
+    color: #000;
+}
+
+div.menu div.nav a:hover{
+    color: var(--dark-orange-web);
+}
+
+/* --------- /header ------ */
+
+/* --------banner-------- */
+
+
+
