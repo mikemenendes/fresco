@@ -85,6 +85,7 @@ header div a:hover{
 
 div.menu div.logo{
     display: inline;
+    padding-left: 25px;
 }
 
 div.menu div.nav{
@@ -95,15 +96,64 @@ div.menu div.nav{
 div.menu div.nav a{
     margin-right: 20px;
     color: #000;
+    font-size: 16px;
 }
 
 div.menu div.nav a:hover{
     color: var(--dark-orange-web);
 }
 
+div.menu div.nav a:last-child{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: var(--dark-orange-web);
+    color: #fff;
+}
+
+div.menu div.nav a:last-child:hover{
+    background-color: var(--alloy-orange);
+}
+
 /* --------- /header ------ */
 
 /* --------banner-------- */
 
+section.banner{
+    background-image: url(../assets/asset\ 11.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
 
+section.banner .contrast{
+    background-color: #0000005b;
+    height: 500px;
+}
 
+section.banner .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.banner .banner-text h1{
+    font-size: 80px;
+    color: #fff;
+    font-family: var(--font-titulo);
+}
+
+section.banner .banner-text p{
+    font-size: 35px;
+    color: var(--dark-orange-web);
+    margin: 10px 0px;
+}
+
+section.banner .banner-text span{
+    color: #fff;
+    font-size: 30px;
+}
+
+/* -------- /banner ------- */
