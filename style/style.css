@@ -202,3 +202,39 @@ section.quemsou div.quemsou-text a:hover{
 .qmsou{
     max-height: 670px;
 } 
+
+section.quemsou div.quemsou-horario{
+    background-image: url(../assets/asset\ 13.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 33%;
+}
+
+section.quemsou div.contrast{
+    background-color: #00000044;
+    height: 650px;
+    position: relative;
+}
+
+div.horario-text{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+div.quemsou-horario h3{
+    color: #fff;
+    font-family: var(--font-titulo);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+div.quemsou-horario span{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* -------- /quemsou --------*/
