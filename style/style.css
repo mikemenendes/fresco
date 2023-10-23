@@ -242,7 +242,13 @@ div.quemsou-horario span{
 /* ----------- cardapio ---------- */
 
 section.cardapio{
-    background-color: var(--cardapio)
+    background-color: var(--cardapio);
+    padding: 50px 0px;
+}
+
+section.cardapio div.titulo{
+    padding: 15px 0px;
+    margin-bottom: 40px;
 }
 
 section.cardapio div.titulo h2{
@@ -253,29 +259,32 @@ section.cardapio div.titulo h2{
 }
 
 section.cardapio div.titulo span{
-    font-size: 25px;
+    font-size: 25px;   
 }
 
 section.cardapio div.cardapio_{
     columns: 2;
+    margin-bottom: 20px;
 }
 
 section.cardapio div.cardapio_ h3{
     display: inline;
     font-weight: bolder;
     font-size: 25px;
+    text-align: justify;
 }
 
 section.cardapio div.cardapio_ span{
     font-size: 25px;
     color: var(--alloy-orange);
-    padding-left: 15px;
+    padding-left: 25px;
     font-weight: bolder;
 }
 
 section.cardapio div.cardapio_ p{
     font-size: 18px;
     margin-top: 15px;
+    text-align: justify;
 }
 
 section.cardapio div.cardapio_menu{
