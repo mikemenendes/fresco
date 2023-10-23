@@ -282,5 +282,20 @@ section.cardapio div.cardapio_menu{
     padding: 15px 15px;
     columns: 2;
     display: inline-block;
-    max-width: 700px;
+    max-width: 700px; 
+    
+}
+
+section.cardapio div.botao{
+    padding-top: 30px;
+}
+
+section.cardapio div.botao a{
+    padding: 15px 50px;
+    background-color: var(--alloy-orange);
+    color: var(--magnolia);
+}
+
+section.cardapio div.botao a:hover{
+    background-color: var(--dark-orange-web);
 }
