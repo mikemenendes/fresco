@@ -245,13 +245,42 @@ section.cardapio{
     background-color: var(--cardapio)
 }
 
-section.cardapio h2{
+section.cardapio div.titulo h2{
     color: var(--alloy-orange);
     font-family: var(--font-titulo);
     font-size: 50px;
     padding: 10px 0px;
 }
 
-section.cardapio span{
+section.cardapio div.titulo span{
     font-size: 25px;
+}
+
+section.cardapio div.cardapio_{
+    columns: 2;
+}
+
+section.cardapio div.cardapio_ h3{
+    display: inline;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+section.cardapio div.cardapio_ span{
+    font-size: 25px;
+    color: var(--alloy-orange);
+    padding-left: 15px;
+    font-weight: bolder;
+}
+
+section.cardapio div.cardapio_ p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+section.cardapio div.cardapio_menu{
+    padding: 15px 15px;
+    columns: 2;
+    display: inline-block;
+    max-width: 700px;
 }
