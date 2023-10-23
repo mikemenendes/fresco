@@ -308,3 +308,26 @@ section.cardapio div.botao a{
 section.cardapio div.botao a:hover{
     background-color: var(--dark-orange-web);
 }
+
+/* -------- /Cardapio --------- */
+
+
+/* ------ footer -------- */
+footer{
+    background-color: #292827;
+    padding: 20px 0px;
+}
+
+footer p{
+    color: var(--magnolia);
+    font-size: 18px;
+}
+
+footer a{
+    color: var(--alloy-orange);
+    font-weight: bolder;
+}
+
+footer a:hover{
+    color: var(--dark-orange-web);
+}
